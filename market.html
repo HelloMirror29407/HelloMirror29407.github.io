@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <script src="https://kit.fontawesome.com/9f4099479f.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+
+  <!-- Useful meta tags -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="">
+
+  <title>Web Designer Studio</title>
+</head>
+<body>
+
+  <div class="page">
+    <!-- Header -->
+    <header class="header _anim-items _anim-no-hide">
+      <div class="header__left">
+        <nav class="nav" id="nav">
+          <li class="nav__list">
+            <ul class="nav__item">
+              <a class="nav__link" href="index.html">Главная</a>
+            </ul>
+            <ul class="nav__item">
+              <a class="nav__link subnav__menu" href="#">Услуги</a>
+              <ul class="subnav">
+                <li>
+                  <a class="subnav__link" href="sites.html">Создание сайтов</a>
+                </li>
+                <li>
+                  <a class="subnav__link" href="market.html">Интернет маркетинг</a>
+                </li>
+              </ul>
+            </ul>
+            <ul class="nav__item">
+              <a class="nav__link" href="work.html">Наша работа</a>
+            </ul>
+          </li>
+        </nav>
+
+        <button class="burger" type="button" id="nav_toggle">
+          <span class="burger__item"></span>
+        </button>
+
+      </div>
+
+      <div class="header__right">
+        <nav class="nav nav--about" id="nav">
+          <li class="nav__list nav__list--about">
+            <ul class="nav__item">
+              <a class="nav__link" href="about.html">О нас</a>
+            </ul>
+          </li>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+      <div class="market">
+        <div class="market__header">
+          <div class="market__title">Интернет маркетинг</div>
+          <div class="market__subtitle">Технологии регистрации и продвижения сайтов</div>
+        </div>
+        <div class="market__content">
+          <div class="market__col">
+            <div class="market__inner">
+              <div class="market__text _anim-items">
+                <p>SEO (search engine optimization) - поисковая оптимизация сайта. Зная базовые принципы работы поисковых систем, можно управлять сайтом так, чтобы выход в топ поисковой выдачи стал лишь вопросом времени. Мы, как разработчики, уже на этапе разработки оптимизируем сайт так, чтобы он легко индексировался поисковыми роботами. По желанию клиента мы так же можем оказать сопровождение и настройку сайта в таких службах как "Яндекс-Директ" и "Google-Search Console". Т.к. мы понимаем, что неподготовленному человеку будет сложно с этим разобраться. В целом прогресс на месте не стоит, это касается и поисковых систем. Такие системы развиваются, и с течением времени на первое место становится именно контент-наполнение сайта, качество такого контента, а не количество поисковых тегов, прописанных в шапке сайта.</p>
+              </div>
+            </div>
+          </div>
+          <div class="market__col">
+            <div class="market__inner">
+              <div class="market__image _anim-items">
+                <img class="market__img" src="assets/images/ico/globe-solid.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="market__col">
+            <div class="market__inner">
+              <div class="market__text--right _anim-items">
+                <p>С другой стороны, если вопрос времени стоит довольно жёстко, приходит такой инструмент как таргетированная реклама. Тут важно понимать, как работают специалисты в этой области. Для начала нужно определить рекламный бюджет. Небольшая часть такого бюджета будет потрачена на поиск эффективного слогана и текста для настройки объявлений. Потому что такой бюджет исчерпывается кликами, т.е. чем больше кликов по ссылке на ваш ресурс, тем меньше остаётся денег в бюджете. Работает ли такая реклама? Да, работает. Мы так же можем оказать поддержку и настроить показ объявлений так, чтобы средства расходовались оптимально относительно конечного результата. Но как мы ранее писали, при качественной поисковой оптимизации сайт будет выведен в топ поиска, благодаря контенту и качественной настройке.</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.market__content -->
+      </div><!-- /.market -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__content">
+          <div class="footer__col">
+            <div class="footer__info">
+              <h3 class="footer__title _anim-items _anim-no-hide">Студия разработки <span class="footer__label">Logic-WEB</span></h3>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__links">
+              <h3 class="footer__links-title">Карта сайта:</h3>
+              <ul class="footer__list _anim-items _anim-no-hide">
+                <li class="footer__item">
+                  <a href="sites.html" class="footer__link">Создание сайтов</a>
+                </li>
+                <li class="footer__item">
+                  <a href="market.html" class="footer__link">Интернет-маркетинг</a>
+                </li>
+                <li class="footer__item">
+                  <a href="work.html" class="footer__link">Ситуативные решения</a>
+                </li>
+                <li class="footer__item">
+                  <a href="about.html" class="footer__link">О нас</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__contacts">
+              <h3 class="footer__links-title">Контакты:</h3>
+              <div class="footer__social _anim-items _anim-no-hide">
+                <a href="" class="footer__social-links">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="" class="footer__social-links">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="" class="footer__social-links">
+                  <i class="fab fa-vk"></i>
+                </a>
+                <a href="" class="footer__social-links">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="" class="footer__social-links">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div class="footer__tel _anim-items _anim-no-hide">+7 999 999 99 99</div>
+              <div class="footer__mail _anim-items _anim-no-hide">web-studio@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.6/vivus.min.js"></script>
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="assets/js/vendor/tabsItems.js"></script>
+  <script src="assets/js/vendor/animItems.js"></script>
+  <script src="assets/js/vendor/mobileNav.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
